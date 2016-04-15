@@ -1,0 +1,15 @@
+save.json
+{
+    "Name": "text",
+    "ImageURL": "text",
+    "WebURL": "text",
+    "Score": 0,
+    "comment": "",
+    "Genres": ["text1", "text2", ...]
+}
+
+
+Json mapping in Qt:
+* The whole Json object = QJsonDocument  (the whole document)
+* Json body (data) = QJsonObject
+* An array of values = QJsonArray
